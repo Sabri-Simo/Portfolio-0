@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center the navigation */
+}
+
+nav li {
+    margin: 0 20px;
+    padding: 5px; /* Space between links */
+}
+
+nav a {
+    color: #fff; 
+    border-radius: 6px;
+    padding: 10px;/* White link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #ffcc00; 
+    background: #036ee0;
+    /* Change color on hover */
+}
+
+/* Hero Section Styles */
+#hero {
+    background: url('path/to/your/background-image.jpg') no-repeat center center / cover; /* Background image */
+    color: #fff; /* White text */
+    padding: 100px 20px; /* Spacing */
+    text-align: center; /* Center content */
+}
+
+.hero-content h1 {
+    font-size: 3em; /* Large font size for the title */
+    margin: 0; /* Remove margin */
+}
+
+.hero-content p {
+    font-size: 1.5em; /* Medium font size for the description */
+    margin: 20px 0; /* Space above and below */
+}
+
+/* About Section Styles */
+#about {
+    padding: 40px 20px; /* Spacing */
+    background-color: #f9f9f9; /* Light background */
+    text-align: center; /* Center text */
+}
+
+#about h2 {
+    font-size: 2em; /* Heading size */
+    margin-bottom: 20px; /* Space below heading */
+}
+p{
+    font-family: sans-serif;
+}
+#about p {
+    max-width: 800px; /* Limit width for readability */
+    margin: auto; /* Center paragraph */
+    line-height: 1.5;
+    font-family: sans-serif; /* Spacing between lines */
+}
+
+#hero {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    transform: translateY(20px);
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #007BFF;
+    color: #fff;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.project {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+.project,ul,il{
+    list-style: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container p {
+    margin: 5px 0;
+}
+
+.footer-container a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-container a:hover {
+    color: #0056b3;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+form {
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+#education {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(to right, #f0f4f8, #d9e3ef);
+}
+
+.certificate, .education-details {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.certificate h3, .education-details h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.certificate p, .education-details p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+#skills {
+    border-top: solid #333 0.01px ;
+    border-radius: 10px;
+    border-bottom: solid #333 0.01px;
+    overflow: hidden; /* Hide overflow */
+    white-space: nowrap; /* Prevent line breaks */
+    padding: 20px 0;
+    padding-bottom: 25; /* Add some padding */
+    background-color: #f8f8f8; /* Optional background color */
+}
+
+.skills-container {
+    display: inline-block; /* Align items in a row */
+    animation: scroll 15s linear infinite; /* Animation for continuous scrolling */
+}
+
+.skill {
+    display: inline-block; /* Display each skill inline */
+    background-color: #e0e0e0; /* Skill background color */
+    padding: 10px 15px; /* Padding for each skill */
+    margin: 0 20px; /* Increased margin between skills */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    vertical-align: middle; /* Align icons with text */
+}
+
+.skill i {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 1.2em; /* Icon size */
+}
+.skill:hover {
+    background-color: #e0e0e0; /* Darken background on hover */
+    transform: scale(1.25); /* Slightly enlarge skill */
+}
+
+@keyframes scroll {
+    0% { transform: translateX(95%); } /* Start off-screen to the right */
+    100% { transform: translateX(-99%); } /* End off-screen to the left */
+}
