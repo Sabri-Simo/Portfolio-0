@@ -33,7 +33,7 @@ nav li {
 nav a {
     color: #fff; 
     border-radius: 6px;
-    padding: 10px;/* White link color */
+    padding: 5px;/* White link color */
     text-decoration: none; /* Remove underline */
     font-weight: bold; /* Bold links */
     transition: color 0.3s; /* Smooth color transition */
