@@ -38,7 +38,22 @@ nav a {
     font-weight: bold; /* Bold links */
     transition: color 0.3s; /* Smooth color transition */
 }
+@media (max-width: 768px) {
+    /* Stack the navigation links vertically on smaller screens */
+    nav ul {
+        flex-direction: row; /* Stack vertically */
+        align-items: center; /* Center the links */
+    }
 
+    nav li {
+        margin: 5px 0; /* Space between items when stacked */
+    }
+
+    /* Optional: Make the links larger for easier clicking on mobile */
+    nav a {
+        padding: 4px 9x; /* Increase padding for better touch targets */
+    }
+}
 nav a:hover {
     color: #ffcc00; 
     background: #036ee0;
