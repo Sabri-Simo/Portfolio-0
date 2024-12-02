@@ -19,84 +19,84 @@ header {
 
 
 nav ul {
-    list-style: none; /* Remove bullet points */
-    padding: 0; /* Remove padding */
-    display: flex; /* Flexbox for horizontal layout */
-    justify-content: center; /* Center the navigation */
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
 }
 
 nav li {
     margin: 0 20px;
-    padding: 5px; /* Space between links */
+    padding: 5px;
 }
 
 nav a {
     color: #fff; 
     border-radius: 6px;
-    padding: 5px;/* White link color */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Bold links */
-    transition: color 0.3s; /* Smooth color transition */
+    padding: 5px;
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s;
 }
 @media (max-width: 768px) {
-    /* Stack the navigation links vertically on smaller screens */
+   
     nav ul {
-        flex-direction: row; /* Stack vertically */
-        align-items: center; /* Center the links */
+        flex-direction: row;
+        align-items: center; 
     }
 
     nav li {
-        margin: 5px 0; /* Space between items when stacked */
+        margin: 5px 0;
     }
 
-    /* Optional: Make the links larger for easier clicking on mobile */
+    
     nav a {
-        padding: 4px 9x; /* Increase padding for better touch targets */
+        padding: 4px 9x; 
     }
 }
 nav a:hover {
     color: #ffcc00; 
     background: #036ee0;
-    /* Change color on hover */
+   
 }
 
 /* Hero Section Styles */
 #hero {
-    background: url('path/to/your/background-image.jpg') no-repeat center center / cover; /* Background image */
-    color: #fff; /* White text */
-    padding: 100px 20px; /* Spacing */
-    text-align: center; /* Center content */
+    background: url('path/to/your/background-image.jpg') no-repeat center center / cover; 
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center; 
 }
 
 .hero-content h1 {
-    font-size: 3em; /* Large font size for the title */
-    margin: 0; /* Remove margin */
+    font-size: 3em; 
+    margin: 0;
 }
 
 .hero-content p {
-    font-size: 1.5em; /* Medium font size for the description */
-    margin: 20px 0; /* Space above and below */
+    font-size: 1.5em; 
+    margin: 20px 0; /
 }
 
-/* About Section Styles */
+
 #about {
-    padding: 40px 20px; /* Spacing */
-    background-color: #f9f9f9; /* Light background */
-    text-align: center; /* Center text */
+    padding: 40px 20px; 
+    background-color: #f9f9f9; 
+    text-align: center;
 }
 
 #about h2 {
-    font-size: 2em; /* Heading size */
-    margin-bottom: 20px; /* Space below heading */
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 p{
     font-family: sans-serif;
 }
 #about p {
-    max-width: 800px; /* Limit width for readability */
-    margin: auto; /* Center paragraph */
+    max-width: 800px; 
+    margin: auto;
     line-height: 1.5;
-    font-family: sans-serif; /* Spacing between lines */
+    font-family: sans-serif; 
 }
 
 #hero {
@@ -270,38 +270,38 @@ button:hover {
     border-top: solid #333 0.01px ;
     border-radius: 10px;
     border-bottom: solid #333 0.01px;
-    overflow: hidden; /* Hide overflow */
-    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; 
+    white-space: nowrap; 
     padding: 20px 0;
-    padding-bottom: 25; /* Add some padding */
-    background-color: #f8f8f8; /* Optional background color */
+    padding-bottom: 25; 
+    background-color: #f8f8f8;
 }
 
 .skills-container {
-    display: inline-block; /* Align items in a row */
-    animation: scroll 15s linear infinite; /* Animation for continuous scrolling */
+    display: inline-block; 
+    animation: scroll 15s linear infinite;
 }
 
 .skill {
-    display: inline-block; /* Display each skill inline */
-    background-color: #e0e0e0; /* Skill background color */
-    padding: 10px 15px; /* Padding for each skill */
-    margin: 0 20px; /* Increased margin between skills */
-    border-radius: 5px; /* Rounded corners */
-    font-weight: bold; /* Bold text */
-    vertical-align: middle; /* Align icons with text */
+    display: inline-block; 
+    background-color: #e0e0e0; 
+    padding: 10px 15px;
+    margin: 0 20px; 
+    border-radius: 5px;
+    font-weight: bold; 
+    vertical-align: middle; 
 }
 
 .skill i {
-    margin-right: 8px; /* Space between icon and text */
-    font-size: 1.2em; /* Icon size */
+    margin-right: 8px; 
+    font-size: 1.2em;
 }
 .skill:hover {
-    background-color: #e0e0e0; /* Darken background on hover */
-    transform: scale(1.25); /* Slightly enlarge skill */
+    background-color: #e0e0e0; 
+    transform: scale(1.25); 
 }
 
 @keyframes scroll {
-    0% { transform: translateX(95%); } /* Start off-screen to the right */
-    100% { transform: translateX(-99%); } /* End off-screen to the left */
+    0% { transform: translateX(95%); }
+    100% { transform: translateX(-99%); } 
 }
